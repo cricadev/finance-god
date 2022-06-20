@@ -1,8 +1,6 @@
-<template>
+<template class="relative">
   <router-view />
-  <nav
-    class="fixed flex items-center justify-between mx-4 bottom-8 rounded-3xl bg-blue"
-  >
+  <nav class="flex items-center justify-between mx-8 mb-8 rounded-3xl bg-blue">
     <router-link class="link" to="/home">
       <svg
         xmlns="http://www.w3.org/2000/svg"
