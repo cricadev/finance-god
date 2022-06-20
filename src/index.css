@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.d {
+  @apply bg-gradient-to-b from-white to-blue;
+}
+.link {
+  @apply text-white transition-all p-4 flex;
+}
+.link > span {
+  @apply transition-all  ml-2 hidden translate-x-[-50%];
+}
+.router-link-exact-active {
+  @apply text-yellow transition-all;
+}
+.router-link-exact-active > span {
+  @apply transition-all opacity-100 flex translate-x-0;
+}
