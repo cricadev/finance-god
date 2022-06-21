@@ -18,8 +18,11 @@ module.exports = {
       yellow: "#dfa00b",
       D: "#00095f",
     },
-    typography: {},
-    extend: {},
+    extend: {
+      fontFamily: {
+        lato: ["Lato", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 };
