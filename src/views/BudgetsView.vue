@@ -2,7 +2,13 @@
   <div>
     this is the {{this.$route.name}}
   </div>
+    <CardSlider/>
+
 </template>
 <script>
-export default {};
+import CardSlider from "@/components/CardSlider.vue";
+
+export default {
+  components: { CardSlider },
+};
 </script>
