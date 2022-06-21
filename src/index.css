@@ -26,5 +26,5 @@ html {
   @apply font-lato;
 }
 body {
-  @apply bg-white;
+  @apply bg-white min-h-screen overflow-hidden;
 }

@@ -2,8 +2,33 @@
   <!-- CARD SLIDER -->
 
   <div
-    class="grid w-4/5 grid-flow-col grid-rows-1 gap-4 my-8 ml-8 overflow-x-auto rounded-3xl"
+    class="grid w-4/5 grid-flow-col grid-rows-1 gap-4 mx-auto my-8 overflow-x-auto rounded-3xl"
   >
+    <!-- CARD -->
+    <div
+      class="grid w-56 h-40 grid-cols-2 overflow-hidden shadow-lg rounded-3xl bg-blue"
+    >
+      <!-- DECORATION CARD -->
+      <img
+        src="../../images/bg_visa.png"
+        alt=""
+        class="col-start-1 col-end-2 row-start-1 row-end-4 blur-[2px] h-40"
+      />
+
+      <img
+        src="../../images/visa_logo.png"
+        alt=""
+        class="self-start w-8 col-start-2 row-start-1 m-4 justify-self-end"
+      />
+      <span
+        class="z-10 col-start-1 col-end-3 row-start-2 row-end-3 mr-4 text-xs font-medium text-white place-self-end"
+        >*8052</span
+      >
+      <span
+        class="z-10 col-start-1 col-end-3 row-start-3 row-end-4 mb-4 mr-4 text-lg font-bold text-white place-self-end"
+        >$12,480.40</span
+      >
+    </div>
     <!-- CARD -->
     <div
       class="grid w-56 h-40 grid-cols-2 overflow-hidden shadow-lg rounded-3xl bg-blue"
