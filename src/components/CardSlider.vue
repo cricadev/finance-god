@@ -2,7 +2,7 @@
   <!-- CARD SLIDER -->
 
   <div
-    class="grid w-4/5 grid-flow-col grid-rows-1 gap-4 mx-auto my-8 overflow-x-auto rounded-3xl"
+    class="grid w-4/5 grid-flow-col grid-rows-1 gap-4 mx-auto my-8 overflow-x-auto rounded-3xl md:w-2/3"
   >
     <!-- CARD -->
     <div

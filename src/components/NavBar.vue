@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="absolute flex items-center justify-between bottom-8 rounded-3xl bg-blue left-1/2 translate-x-[-50%]"
+    class="absolute flex items-center justify-between bottom-8 rounded-3xl bg-blue left-1/2 translate-x-[-50%] space-x-2 px-4 md:space-x-24"
   >
     <router-link class="link" to="/home">
       <svg
@@ -17,7 +17,7 @@
           d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
         />
       </svg>
-      <span>Home</span>
+      <span class="md:text-xl">Home</span>
     </router-link>
     <router-link class="link" to="/transfer">
       <svg
@@ -34,7 +34,7 @@
           d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"
         />
       </svg>
-      <span>Transfer</span>
+      <span class="md:text-xl">Transfer</span>
     </router-link>
     <router-link class="link" to="/budgets">
       <svg
@@ -51,7 +51,7 @@
           d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"
         />
       </svg>
-      <span>Budgets</span>
+      <span class="md:text-xl">Budgets</span>
     </router-link>
     <router-link class="link" to="/settings">
       <svg
@@ -73,7 +73,7 @@
           d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
         />
       </svg>
-      <span>Settings</span>
+      <span class="md:text-xl">Settings</span>
     </router-link>
   </nav>
 </template>
