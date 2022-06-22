@@ -3,12 +3,12 @@ import HomeView from "../views/HomeView.vue";
 import TransferView from "@/views/TransferView.vue";
 import SettingsView from "@/views/SettingsView.vue";
 import BudgetsView from "@/views/BudgetsView.vue";
-
+import Init from "@/components/Init.vue";
 const routes = [
   {
     path: "/",
-    name: "/",
-    component: [HomeView, TransferView, SettingsView, BudgetsView],
+    name: "root",
+    component: Init,
   },
   {
     path: "/home",
@@ -29,6 +29,11 @@ const routes = [
     path: "/settings",
     name: "settings",
     component: SettingsView,
+  },
+  {
+    path: "/desktop",
+    name: "desktop",
+    component: { HomeView },
   },
 ];
 
