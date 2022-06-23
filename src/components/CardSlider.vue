@@ -2,17 +2,17 @@
   <!-- CARD SLIDER -->
 
   <div
-    class="grid w-4/5 grid-flow-col grid-rows-1 gap-4 mx-auto my-8 overflow-x-auto rounded-3xl md:w-2/3"
+    class="grid w-4/5 grid-flow-col grid-rows-1 gap-4 mx-auto my-8 overflow-x-auto lg:h-full rounded-3xl md:w-2/3 lg:col-span-3 lg:row-start-2 lg:row-end-4 lg:w-full 2xl:gap-0"
   >
     <!-- CARD -->
     <div
-      class="grid w-56 h-40 grid-cols-2 overflow-hidden shadow-lg rounded-3xl bg-blue"
+      class="grid w-56 h-40 grid-cols-2 overflow-hidden shadow-lg rounded-3xl bg-blue lg:w-64 lg:h-56 2xl:ml-8"
     >
       <!-- DECORATION CARD -->
       <img
         src="../../images/bg_visa.png"
         alt=""
-        class="col-start-1 col-end-2 row-start-1 row-end-4 blur-[2px] h-40"
+        class="col-start-1 col-end-2 row-start-1 row-end-4 blur-[2px] h-40 lg:h-56"
       />
 
       <img
@@ -31,13 +31,13 @@
     </div>
     <!-- CARD -->
     <div
-      class="grid w-56 h-40 grid-cols-2 overflow-hidden shadow-lg rounded-3xl bg-blue"
+      class="grid w-56 h-40 grid-cols-2 overflow-hidden shadow-lg rounded-3xl bg-blue lg:w-64 lg:h-56"
     >
       <!-- DECORATION CARD -->
       <img
         src="../../images/bg_visa.png"
         alt=""
-        class="col-start-1 col-end-2 row-start-1 row-end-4 blur-[2px] h-40"
+        class="col-start-1 col-end-2 row-start-1 row-end-4 blur-[2px] h-40 lg:h-56"
       />
 
       <img
@@ -58,7 +58,7 @@
 
     <a href="#" class="text-blue">
       <div
-        class="grid items-center justify-center w-12 h-40 overflow-hidden bg-white border-2 border-dashed shadow-lg border-blue rounded-3xl"
+        class="grid items-center justify-center w-12 h-40 overflow-hidden bg-white border-2 border-dashed shadow-lg border-blue rounded-3xl lg:h-56"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
