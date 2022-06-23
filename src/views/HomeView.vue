@@ -2,10 +2,10 @@
 
   <!-- TRANSACTION SECTION -->
     
-    <section id="transactions" class="mx-8 md:mx-24">
+    <section id="transactions" class="mx-8 md:mx-24 lg:row-start-4 lg:row-end-7 lg:col-span-3 lg:mx-0">
       <h1 class="text-xl font-bold ">Transactions</h1>
       <!-- transactions slider -->
-      <div class="grid grid-flow-row gap-4 overflow-y-auto max-h-[50vh] ">
+      <div class="grid grid-flow-row gap-4 overflow-y-auto max-h-[50vh] lg:w-full">
         <!-- month text -->
         <h2 class="my-2 font-medium text-gray">April</h2>
         <!-- card transaction  -->
