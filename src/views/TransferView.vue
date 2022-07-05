@@ -65,72 +65,90 @@
           <p class="text-xs text-gray">Ronald</p>
         </div>
       </div>
-      <!-- form transfer  -->
-      <div class="flex flex-col gap-2 my-8">
-        <!-- recipient form -->
-        <h2 class="my-2 ml-4 text-base font-bold text-gray">Recipient</h2>
-        <!-- recipient card -->
-        <div
-          class="flex items-center p-2 bg-white rounded-full shadow-sm text-gray"
-        >
-          <span class="px-2">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="w-6 h-6"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              stroke-width="2"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
-              />
-            </svg>
-          </span>
-          <input
-            type="text"
-            placeholder="Card or Phone Number"
-            class="w-full ml-4 text-sm bg-white focus:outline-none text-gray placeholder-gray2"
-          />
+      <form action="" @submit="checkForm">
+        <!-- form transfer  -->
+        <div class="flex flex-col gap-2 my-8">
+          <!-- recipient form -->
+          <h2 class="my-2 ml-4 text-base font-bold text-gray">Recipient</h2>
+          <!-- recipient card -->
+          <div
+            class="flex items-center p-2 bg-white rounded-full shadow-sm text-gray"
+          >
+            <span class="px-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-6 h-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+                />
+              </svg>
+            </span>
+            <input
+              type="text"
+              placeholder="Card or Phone Number"
+              class="w-full ml-4 text-sm bg-white focus:outline-none text-gray placeholder-gray2"
+              required
+            />
+          </div>
+          <!-- amount form -->
+          <h2 class="my-2 ml-4 text-base font-bold text-gray">Amount</h2>
+          <!-- amount card -->
+          <div
+            class="flex items-center p-2 bg-white rounded-full shadow-sm text-gray"
+          >
+            <span class="px-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-6 h-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"
+                />
+              </svg>
+            </span>
+            <input
+              type="number"
+              placeholder="Enter an amount"
+              class="w-full ml-4 text-sm bg-white focus:outline-none text-gray placeholder-gray2"
+              autocomplete="on"
+              required
+            />
+          </div>
+          <button
+            class="w-1/2 p-2 mx-auto my-4 font-bold text-white rounded-full bg-yellow"
+             
+          >
+            Transfer Money
+          </button>
         </div>
-        <!-- amount form -->
-        <h2 class="my-2 ml-4 text-base font-bold text-gray">Amount</h2>
-        <!-- amount card -->
-        <div
-          class="flex items-center p-2 bg-white rounded-full shadow-sm text-gray"
-        >
-          <span class="px-2">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="w-6 h-6"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              stroke-width="2"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"
-              />
-            </svg>
-          </span>
-          <input
-            type="number"
-            placeholder="Enter an amount"
-            class="w-full ml-4 text-sm bg-white focus:outline-none text-gray placeholder-gray2"
-          />
-        </div>
-
-        <button
-          class="w-1/2 p-2 mx-auto my-4 font-bold text-white rounded-full bg-yellow"
-        >
-          Transfer Money
-        </button>
-      </div>
+      </form>
     </div>
   </section>
   </template>
-<script></script>
+<script>
+export default {
+  data() {
+    return {
+      errors: [],
+      name: null,
+      amount: null,
+    };
+  },
+  methods: {
+    checkForm() {},
+  },
+};
+</script>
